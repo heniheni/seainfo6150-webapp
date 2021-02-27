@@ -4,12 +4,16 @@ import DynamicArticle from "./DynamicArticle/DynamicArticle.jsx";
 import { isEmpty } from "lodash";
 
 function App() {
-  const [fetchedData, setFetchedData] = useState();
+  const [fetchedData, setFetchedData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       let responseJson;
       // put data fetching code here!
+       const response = await fetch(
+        "http://demo1390455.mockable.io/articles"
+        );
+       responseJson = await response.json();
       setFetchedData(responseJson);
     };
 
