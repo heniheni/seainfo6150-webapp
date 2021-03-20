@@ -1,0 +1,14 @@
+.backlinkcolor{
+    color:#cc0000;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.contentbox{
+ border: dashed 1px #6e6e6e;
+ box-shadow: 0px 0px 24px red ;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin: 15px;
+
+}

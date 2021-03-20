@@ -1,0 +1,30 @@
+.title {
+    color:#cc0000;
+   font-weight: 900;
+}
+
+.linkcolor {
+    color: #cc0000;
+
+ 
+}
+
+.listing{
+    list-style-type: none;
+    background-image: linear-gradient( to right, rgba(255, 0, 0, 0.527), #eeeeee 15% );
+    height: auto;
+    width: -webkit-fill-available;
+    border: 2px solid  #cc0000; 
+    border-radius: 15px;
+    padding-left: 30px;
+    box-shadow: 2px 4px 20px black ;
+    margin: 24px;
+    display:inline-block;
+}
+
+
+
+.timetag{
+    font-weight: bold;
+}
+
