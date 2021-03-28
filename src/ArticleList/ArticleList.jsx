@@ -4,10 +4,10 @@ import styles from "./ArticleList.module.css";
 import ArticleListItem from "../ArticleListItem/ArticleListItem.jsx";
 
 const ArticleList = (props) => {
-  return (
+  return (   
     <div>
-      <ul className={styles.container}>
-        {props.articles.map((article) => (
+      <ul className={styles.container}>   
+        {props.articles.map((article) => (      
           <ArticleListItem article={article} key={article.slug} />
         ))}
       </ul>
