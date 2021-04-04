@@ -7,6 +7,7 @@ const ArticleTextToggleButton = (props) => {
     <button className={styles.button} onClick={props.onClick}>
       {props.buttonText}
     </button>
+
   );
 };
 

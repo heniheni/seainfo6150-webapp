@@ -4,19 +4,19 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-
-.container + .container {
-    margin-top: 30px;
+    padding: 10px; 
 }
 
 .title {
     color: #c00;
     margin: 0 0 20px;
+    padding-top: 20px;
 }
 
 .text {
+    display: block;
+    flex: 1;
+    float: left;  
     font-size: 12px;
     margin: 0 0 20px;
 }
@@ -28,3 +28,4 @@
 .link {
     color: #c00;
 }
+

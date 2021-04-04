@@ -30,10 +30,11 @@ const ArticleListItem = (props) => {
           </h2>
           {isTextShowing && (
             <div className={styles.text}>
+              <p>{props.article.shortText}</p>
               <time className={styles.time} dateTime={props.article.timeStamp}>
                 {props.article.displayDate}
               </time>
-              <p>{props.article.shortText}</p>
+              
             </div>
           )}
         </div>

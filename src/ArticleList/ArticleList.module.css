@@ -6,4 +6,13 @@
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
   padding: 15px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-flow: nowrap;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
 }

@@ -8,7 +8,7 @@ const ArticleList = (props) => {
     <div>
       <ul className={styles.container}>
         {props.articles.map((article) => (
-          <ArticleListItem article={article} key={article.slug} />
+          <ArticleListItem className={styles.article} article={article} key={article.slug} />
         ))}
       </ul>
     </div>
@@ -16,6 +16,6 @@ const ArticleList = (props) => {
 };
 
 ArticleList.propTypes = {
-    articles: PropTypes.array.isRequired
+  articles: PropTypes.array.isRequired
 }
 export default ArticleList;
