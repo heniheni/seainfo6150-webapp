@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicArticle tests renders correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="back"
+      href="/articlelist"
+    >
+      Back
+    </a>
+    <article
+      class="article"
+    >
+      <header>
+        <img
+          alt="The Statue of Libertys torch heads to new museum"
+          class="image"
+          src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+        />
+        <h1>
+          The Statue of Libertys torch heads to new museum
+        </h1>
+        <address>
+          by 
+          Kate Farley
+           (
+          <a
+            href="mailto:kate.farley@nytimes.com"
+          >
+            kate.farley@nytimes.com
+          </a>
+          )
+          <br />
+        </address>
+        <time
+          datetime="2018-11-22T15:12:24.000Z"
+        >
+          November 22nd 2018, 7:12 am
+        </time>
+      </header>
+      <div>
+        <div
+          class="content"
+        >
+          test text
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+`;
